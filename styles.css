@@ -331,6 +331,15 @@ body::before {
     filter: brightness(1.1);
 }
 
+.credit {
+    font-size: 1rem;
+    line-height: 1.6;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
 /* Responsive Adjustments */
 @media (max-width: 1200px) {
     .main-title {
@@ -436,6 +445,8 @@ body::before {
         gap: 30px;
     }
 }
+
+
 
 @media (max-width: 480px) {
     .main-title {
